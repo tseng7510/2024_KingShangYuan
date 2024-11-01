@@ -1,0 +1,87 @@
+.faqPage .siteMain {
+  background: #beb9af;
+}
+.faqPage .siteMain .mainBox::after {
+  height: auto;
+  bottom: 0;
+}
+.faqPage .siteMain .listBox {
+  background: #fff;
+  border: #BEB9AF 1px solid;
+}
+.faqPage .siteMain .listBox .item {
+  border-bottom: #BEB9AF 1px solid;
+}
+.faqPage .siteMain .listBox .item:last-child {
+  border-bottom: none;
+}
+.faqPage .siteMain .listBox .qBox {
+  font-size: 1.3125rem;
+  font-weight: 600;
+  padding: 15px 80px 15px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .faqPage .siteMain .listBox .qBox {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .faqPage .siteMain .listBox .qBox {
+    padding: 15px 40px 15px 0;
+  }
+}
+.faqPage .siteMain .listBox .qBox::before {
+  content: "Q";
+  border-right: #BEB9AF 1px solid;
+  padding: 0 40px;
+  font-size: 3.5rem;
+  margin-right: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .faqPage .siteMain .listBox .qBox::before {
+    font-size: 1.875rem;
+    padding: 0 20px;
+    margin-right: 20px;
+  }
+}
+.faqPage .siteMain .listBox .qBox::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  -webkit-mask: url("../images/icon/icon_ar.svg") center no-repeat;
+          mask: url("../images/icon/icon_ar.svg") center no-repeat;
+  background: #FF7F00;
+  transform: rotate(-90deg);
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .faqPage .siteMain .listBox .qBox::after {
+    right: 20px;
+  }
+}
+.faqPage .siteMain .listBox .qBox.active {
+  color: #FFF;
+  background: #FF7F00;
+}
+.faqPage .siteMain .listBox .qBox.active::after {
+  background: #fff;
+  transform: rotate(90deg);
+}
+.faqPage .siteMain .listBox .aBox {
+  padding: 20px;
+  padding-left: 137px;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .faqPage .siteMain .listBox .aBox {
+    padding-left: 20px;
+  }
+}/*# sourceMappingURL=faq.css.map */

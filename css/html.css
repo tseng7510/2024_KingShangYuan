@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.html .siteMain {
+  background: #beb9af;
+}
+.html .mainBox::before {
+  display: none;
+}
+.html .mainBox::after {
+  height: 100%;
+}
+.html .blockTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .html .blockTitle {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .blockTitle {
+    font-size: 1.75rem;
+  }
+}
+.html .editor {
+  max-width: 1150px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+}
+@media screen and (max-width: 1000px) {
+  .html .editor {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .editor {
+    font-size: 1rem;
+  }
+}
+.html .editor ul.style li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.html .editor ul.style li::before {
+  content: "◆";
+  color: #FF7F00;
+  position: absolute;
+  left: 0;
+}
+
+.editor span.title {
+  color: #FF7F00;
+  font-weight: 700;
+}/*# sourceMappingURL=html.css.map */
