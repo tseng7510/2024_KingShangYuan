@@ -3,7 +3,40 @@
   <div class="footer">
     <div class="container">
       <div class="top">
-        <div class="footerLogo"><img src="../images/logo.svg" alt="LIEN CHIEH MACHINERY CO., LTD." /></div>
+        <div class="footerLogo">
+          <div class="pic"><img src="../images/logo.svg" alt="LIEN CHIEH MACHINERY CO., LTD." /></div>
+          <div class="shareBox">
+            <ul>
+              <li>
+                <a href="#" target="_blank" class="facebook"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="youtube"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="linkedin"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="whatsapp"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="x"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="instagram"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="skype"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="line"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="wechat"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="menuBox wow fadeInUp" data-wow-delay="0.2s">
           <div class="menu">
             <div class="title">PRODUCTS</div>

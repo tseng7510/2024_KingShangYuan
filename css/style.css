@@ -1877,7 +1877,10 @@ button:focus {
   margin: 0 0 auto;
   line-height: 0;
 }
-.footerBox .footerLogo img {
+.footerBox .footerLogo .pic {
+  margin-bottom: 30px;
+}
+.footerBox .footerLogo .pic img {
   width: 100%;
   aspect-ratio: 320/68;
 }
@@ -1909,6 +1912,7 @@ button:focus {
 }
 .footerBox .shareBox ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
 }
 @media screen and (max-width: 1000px) {
@@ -1919,6 +1923,7 @@ button:focus {
 }
 .footerBox .shareBox ul li {
   border-radius: 50%;
+  overflow: hidden;
   background: #000000;
 }
 .footerBox .shareBox ul a {
@@ -1941,10 +1946,10 @@ button:focus {
   display: block;
   width: 20px;
   height: 20px;
-  background: #cccccc;
+  background: #fff;
   transition: all 0.3s ease;
 }
-.footerBox .shareBox ul a:hover::before {
+.footerBox .shareBox ul a:hover {
   background: #ff7f00;
 }
 .footerBox .shareBox ul li .facebook::before {
@@ -1978,6 +1983,22 @@ button:focus {
 .footerBox .shareBox ul li .linkedin::before {
   -webkit-mask: url('../images/icon/icon_linkedin.svg') center no-repeat;
   mask: url('../images/icon/icon_linkedin.svg') center no-repeat;
+}
+.footerBox .shareBox ul li .qq::before {
+  -webkit-mask: url('../images/icon/icon_qq.svg') center no-repeat;
+  mask: url('../images/icon/icon_qq.svg') center no-repeat;
+}
+.footerBox .shareBox ul li .x::before {
+  -webkit-mask: url('../images/icon/icon_x.svg') center no-repeat;
+  mask: url('../images/icon/icon_x.svg') center no-repeat;
+}
+.footerBox .shareBox ul li .instagram::before {
+  -webkit-mask: url('../images/icon/icon_instagram.svg') center no-repeat;
+  mask: url('../images/icon/icon_instagram.svg') center no-repeat;
+}
+.footerBox .shareBox ul li .skype::before {
+  -webkit-mask: url('../images/icon/icon_skype.svg') center no-repeat;
+  mask: url('../images/icon/icon_skype.svg') center no-repeat;
 }
 
 .pageBox {

@@ -58,7 +58,7 @@
                 <div class="listBox">
                   <? for ($i = 0; $i < 8; $i++) { ?>
                     <div class="item wow fadeInUp" data-wow-delay="0s">
-                      <a href="products_3.php">
+                      <a href="products_detail.php">
                         <div class="picBox">
                           <div class="pic"><img src="../images/index/p1.png" alt=""></div>
                           <div class="infoBox">
