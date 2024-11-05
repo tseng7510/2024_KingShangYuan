@@ -173,6 +173,13 @@
               </div>
             </div>
           </div>
+          <div class="box2">
+            <div class="container">
+              <div class="editor">Dual-button operation is a standard feature of our machine models, ensuring that operators must simultaneously press two buttons to activate the punch press, thus avoiding accidental punching incidents.<br />
+                Finally, our hydraulic punching machines are equipped with an oil temperature cooling device, which uses fan cooling to ensure that the oil temperature does not exceed 48°C. This reduces losses caused by temperature rise and allows for stable operation over a long period of time.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

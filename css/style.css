@@ -1924,14 +1924,14 @@ button:focus {
 .footerBox .shareBox ul li {
   border-radius: 50%;
   overflow: hidden;
-  background: #000000;
+  background: #696869;
 }
 .footerBox .shareBox ul a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   overflow: hidden;
   transition: all 0.3s ease;
 }

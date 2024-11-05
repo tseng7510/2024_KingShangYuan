@@ -633,6 +633,7 @@
 }
 .productsDetail .siteMain .bottomBox {
   display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 1000px) {
   .productsDetail .siteMain .bottomBox {
@@ -671,6 +672,11 @@
 }
 .productsDetail .siteMain .bottomBox .box:nth-child(2) .content {
   margin: 0 auto 0 0;
+}
+.productsDetail .siteMain .bottomBox .box2 {
+  background: linear-gradient(to bottom, rgb(242, 241, 239) 0%, rgb(190, 185, 175) 100%);
+  width: 100%;
+  padding: 4% 60px;
 }
 .productsDetail .siteMain .bottomBox table {
   table-layout: fixed;
