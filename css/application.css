@@ -40,7 +40,7 @@
   display: flex;
   align-items: center;
   gap: 40px;
-  height: 100%;
+  /* height: 100%; */
 }
 @media screen and (max-width: 1000px) {
   .application .mainBox .listBox .item a {
@@ -99,7 +99,7 @@
   }
 }
 .application .mainBox .listBox .item .infoBox .description {
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: 1.3125rem;
 }
 @media screen and (max-width: 1440px) {
@@ -119,9 +119,9 @@
   padding: 10px 30px;
   border-radius: 5px;
   font-size: 1.125rem;
-  color: #FFF;
+  color: #fff;
   white-space: nowrap;
-  background: #FF7F00;
+  background: #ff7f00;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -136,7 +136,7 @@
   }
 }
 .application .mainBox .listBox .item .more::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   right: 0;
@@ -212,10 +212,10 @@
 .applicationDetail .siteMain .topBox .topTitle {
   width: -moz-fit-content;
   width: fit-content;
-  color: #FFF;
+  color: #fff;
   font-size: 1.3125rem;
   font-weight: 500;
-  background: #FF7F00;
+  background: #ff7f00;
   padding: 5px 20px 3px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -260,7 +260,7 @@
   font-weight: 600;
   text-align: left;
   white-space: nowrap;
-  border: #BEB9AF 1px solid;
+  border: #beb9af 1px solid;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -269,24 +269,24 @@
   gap: 10px;
 }
 .applicationDetail .siteMain .topBox .changePage .arrows::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   right: 0;
   top: 0;
   bottom: 0;
   display: block;
-  background: #FF7F00;
+  background: #ff7f00;
   z-index: -1;
   transition: all 0.3s ease;
 }
 .applicationDetail .siteMain .topBox .changePage .arrows::after {
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   display: block;
-  -webkit-mask: url("../images/icon/icon_ar.svg") center no-repeat;
-          mask: url("../images/icon/icon_ar.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_ar.svg') center no-repeat;
+  mask: url('../images/icon/icon_ar.svg') center no-repeat;
   background: #000;
   transform: scaleX(-1);
   transition: all 0.3s ease;
@@ -316,7 +316,7 @@
   padding: clamp(30px, 6%, 100px);
 }
 .applicationDetail .siteMain .centerBox .editor {
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 .applicationDetail .siteMain .centerBox .editor .list {
   display: flex;
@@ -328,11 +328,11 @@
   position: relative;
 }
 .applicationDetail .siteMain .centerBox .editor .list li::before {
-  content: "";
+  content: '';
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #FF7F00;
+  background: #ff7f00;
   position: absolute;
   left: 0;
   top: 11px;
@@ -361,8 +361,8 @@
   }
 }
 .applicationDetail .siteMain .bottomBox .listBox {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 60px 40px;
   margin: 0 -25px 40px;
 }
@@ -407,7 +407,7 @@
   position: absolute;
   inset: 0;
   padding: 50px;
-  background: #FF7F00;
+  background: #ff7f00;
   transform: translateY(105%);
   transition: all 0.3s ease;
 }
@@ -431,7 +431,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: #fff;
   border-radius: 50%;
   font-size: 1.5rem;
   margin: 10% auto 20px;
@@ -444,7 +444,7 @@
   }
 }
 .applicationDetail .siteMain .bottomBox .listBox .item .infoBox .description {
-  color: #FFF;
+  color: #fff;
   line-height: 1.8;
   overflow: hidden;
   display: -webkit-box;
@@ -466,12 +466,12 @@
   transition: all 0.3s ease;
 }
 .applicationDetail .siteMain .bottomBox .arrowsBox button::after {
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   display: block;
-  -webkit-mask: url("../images/icon/icon_ar.svg") center no-repeat;
-          mask: url("../images/icon/icon_ar.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_ar.svg') center no-repeat;
+  mask: url('../images/icon/icon_ar.svg') center no-repeat;
   background: #000;
   position: absolute;
   left: 50%;
@@ -483,9 +483,9 @@
   transform: translate(-50%, -50%) scaleX(1);
 }
 .applicationDetail .siteMain .bottomBox .arrowsBox button:hover {
-  border-color: #FF7F00;
-  background: #FF7F00;
+  border-color: #ff7f00;
+  background: #ff7f00;
 }
 .applicationDetail .siteMain .bottomBox .arrowsBox button:hover::after {
   background: #fff;
-}/*# sourceMappingURL=application.css.map */
+} /*# sourceMappingURL=application.css.map */

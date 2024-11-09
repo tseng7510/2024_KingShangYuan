@@ -1708,6 +1708,7 @@ button:focus {
   width: 30px;
   aspect-ratio: 1;
   margin: 10px 15px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2454,7 +2455,7 @@ button:focus {
     font-size: 1.125rem;
   }
 }
-.pageBtnBox .send::before,
+.pageBtnBox .send:not(.disabled)::before,
 .pageBtnBox .back::before {
   content: '';
   position: absolute;
@@ -2479,6 +2480,10 @@ button:focus {
 .pageBtnBox .send:hover::after,
 .pageBtnBox .back:hover::after {
   background: #fff;
+}
+.pageBtnBox .send.disabled {
+  background: #999;
+  cursor: not-allowed;
 }
 
 .lightBoxActive {
