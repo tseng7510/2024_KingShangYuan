@@ -7,7 +7,7 @@
   height: auto;
   bottom: 0;
 }
-.application .mainBox .listBox {
+/* .application .mainBox .listBox {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -16,11 +16,14 @@
   .application .mainBox .listBox {
     flex-direction: column;
   }
-}
+} */
 @media screen and (min-width: 1001px) {
   .application .mainBox .listBox .item:nth-child(even) .pic {
     order: 2;
   }
+}
+.application .mainBox .listBox .item {
+  margin-bottom: 50px;
 }
 @media screen and (max-width: 1000px) {
   .application .mainBox .listBox .item {
